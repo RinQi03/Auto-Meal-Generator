@@ -1,0 +1,38 @@
+{
+  "name": "final-project-rin-qi",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "The content below is an example project proposal / requirements document. Replace the text below the lines marked \"__TODO__\" with details specific to your project. Remove the \"TODO\" lines.",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@googlemaps/places": "^1.8.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "hbs": "^4.2.0",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^8.8.3",
+    "mongoose-slug-plugin": "^2.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@google/generative-ai": "^0.21.0",
+    "chai": "^5.1.2",
+    "eslint": "^9.16.0",
+    "eslint-plugin-mocha": "^10.5.0",
+    "globals": "^15.12.0",
+    "mocha": "^10.8.2",
+    "nodemon": "^3.1.7",
+    "supertest": "^7.0.0"
+  }
+}
