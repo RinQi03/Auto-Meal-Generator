@@ -9,6 +9,8 @@ Manhattan Auto Meal Generator is a Gen AI web app that filters out good suited r
 - If the user wants to go to a restaurant for the next meal, it will generate one suitable restaurants in Manhattan, taking into consideration of users' preference, location, operation time, budget, rating, and addtioanl requirements (like going on a date).
 - If the user wants to cook his/her own dinner, it will generate one cookable dish, taking into account of the preference of the user, ingredients the user have, cost, and addtioanl requirements (like cooking for Christmas Eve).
 
+**Note: example.env in frontend and backend folder respectively**
+
 ## Data Model
 
 The application will store Users, Restaurants, and Recipes using Mongoose.
@@ -54,48 +56,6 @@ An Example Recipe:
 ```
 
 ## [Link to Commented First Draft Schema](/backend/db.mjs)
-
-## Wireframes
-
-/api/connect/register - page for registration
-
-![login](documentation/Register.jpg)
-
-/api/connect/login - page for login
-
-![login](documentation/login.jpg)
-
-/api/connect/home - page for home page that will appear the first
-
-![home1](documentation/home1.jpg)
-
-/api/connect/home - page for home page that will appear the second
-
-![home2](documentation/home2.jpg)
-
-/api/connect/restaurant-pref - page for selecting preference for today's restaurant
-
-![restaurant-pref](documentation/RestaurantPreferences.jpg)
-
-/api/connect/recipe-pref - page for selecting preference for today's recipe
-
-![recipe-pref](documentation/RecipePreferences.jpg)
-
-/api/connect/restaurant - page for showing specific restaurant
-
-![restaurant details](documentation/RestaurantDetails.jpg)
-
-/api/connect/recipe-details - page for showing specific recipe
-
-![recipe details](documentation/RecipeDetails.jpg)
-
-/api/connect/about - page for general information of the website
-
-![about](documentation/about.jpg)
-
-## Site map
-
-Here's the [Site Map](documentation/site-map.jpg)
 
 ## User Stories or Use Cases
 
